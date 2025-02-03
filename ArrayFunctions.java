@@ -14,3 +14,11 @@ class ArrayFunctions{
 				even[even_index] = array[i];
 				even_index++;		
 			}
+			else{
+				odd[odd_index] = array[i];
+				odd_index++;	
+			}
+		}
+		display(even);
+		display(odd);
+	}
