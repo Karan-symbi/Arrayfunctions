@@ -11,3 +11,11 @@ class Main{
 		ArrayFunctions af = new ArrayFunctions();
 		Scanner sc = new Scanner(System.in);
 		int choice;
+		do{
+			System.out.println("Please select one fo the following array operations:");
+			System.out.println("1. Separate odd and even members in an array");
+			System.out.println("2. Separate odd and even members in an array");
+			System.out.println("3. Finding the closest neighbour");
+			System.out.println("4. Conversion of Array List to an Array or vice versa");
+			System.out.println("5. Exit");
+			choice = sc.nextInt();
