@@ -54,3 +54,8 @@ class Main{
 					System.out.println("Invalid choice!");
                 			break;
 			}
+
+		}while(choice!=5);
+	}
+	  
+}
