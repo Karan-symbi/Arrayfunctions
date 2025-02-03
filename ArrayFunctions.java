@@ -59,3 +59,5 @@ class ArrayFunctions{
 		for(int i :array){
 			list.add(i);
 		}
+		displayList(list);
+	}
