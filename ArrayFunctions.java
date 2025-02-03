@@ -38,3 +38,7 @@ class ArrayFunctions{
 				odd.add(array[i]);
 					
 			}
+		}
+		displayList(even);
+		displayList(odd);
+	}
