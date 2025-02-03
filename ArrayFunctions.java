@@ -22,3 +22,6 @@ class ArrayFunctions{
 		display(even);
 		display(odd);
 	}
+	void displayList(ArrayList<Integer> array){
+		System.out.println("Array is:" + array);
+	}
