@@ -30,3 +30,20 @@ class Main{
 					int neighbour = af.ClosestNeighbour(ai.userInput());
 					System.out.println("The closest neighbours in the given array are at index " + neighbour + "and " + (neighbour+1));
 					break;
+				case 4: 
+					System.out.println("Select one of the following:");
+					System.out.println("1. Convert ArrayList to an Array.");
+					System.out.println("2. Convert an Array to an ArrayList.");
+					int operation = sc.nextInt();
+					switch(operation){
+						case 1:
+							af.arraylisttoArray(ai.userInputList());
+							break;
+						case 2:
+							af.arraytoArrayList(ai.userInput());
+							break;
+						default:
+							System.out.println("Invalid choice!");
+                					break;		
+					}
+					break;
