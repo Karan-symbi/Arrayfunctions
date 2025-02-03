@@ -19,3 +19,14 @@ class Main{
 			System.out.println("4. Conversion of Array List to an Array or vice versa");
 			System.out.println("5. Exit");
 			choice = sc.nextInt();
+			switch(choice){
+				case 1:
+					af.OddEven(ai.userInput());
+					break;
+				case 2:
+					af.OddEvenList(ai.userInput());
+					break;
+				case 3:
+					int neighbour = af.ClosestNeighbour(ai.userInput());
+					System.out.println("The closest neighbours in the given array are at index " + neighbour + "and " + (neighbour+1));
+					break;
